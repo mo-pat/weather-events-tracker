@@ -24,11 +24,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7.5px;
+  padding: 5px;
   margin: 0 auto 10px;
   height: 20px;
   background-color: white;
-  width: 300px;
+  width: 280px;
   border-radius: 2em;
 }
 
@@ -48,4 +48,9 @@ h1 {
 
 .search-bar .btn {
   border: none;
+  justify-content: flex-end;
+}
+
+.search-bar .btn:focus {
+  outline: none;
 }

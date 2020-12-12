@@ -1,4 +1,6 @@
 import React from 'react'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const SearchBar = () => {
   return (
@@ -12,7 +14,7 @@ export const SearchBar = () => {
 
       {/* add magnifying glass icon from font awesome*/}
       <button className="btn">
-        button
+        <FontAwesomeIcon icon={faSearch} />
       </button>
     </div>
   )
