@@ -49,8 +49,23 @@ h1 {
 .search-bar .btn {
   border: none;
   justify-content: flex-end;
+  background-color: white;
+  cursor: pointer;
 }
 
 .search-bar .btn:focus {
   outline: none;
+}
+
+.search-bar .btn:hover {
+  color: steelblue;
+}
+
+.loader img {
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 150px;
 }
