@@ -1,5 +1,5 @@
 import React from 'react'
-import loadingGIF from '../loading2.gif'
+import loadingGIF from '../loading3.gif'
 
 export const Loader = () => {
   return (
